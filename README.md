@@ -51,7 +51,7 @@ This repository contains three DevOps challenges:
 
 ---
 
-## ⚙️ 3. CI/CD Pipeline Challenge
+## 3. CI/CD Pipeline Challenge
 
 **Workflow File:** `.github/workflows/deploy.yml`
 
