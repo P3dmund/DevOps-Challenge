@@ -12,9 +12,9 @@ This repository contains three DevOps challenges:
 
 | Category                | Description                                 | Link                                                 |
 |-------------------------|---------------------------------------------|------------------------------------------------------|
-| 🖥️ Shell Scripts        | Script to archive old files                 | [`Scripts/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/Scripts) |
-| ☁️ Terraform IaC        | Provision AWS EC2 + Security Group          | [`Terraform/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/Terraform) |
-| 🔁 GitHub Actions CI/CD | Auto-merge, build, Docker deploy           | [`.github/workflows/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/.github/workflows) |
+|  Shell Scripts        | Script to archive old files                 | [`Scripts/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/Scripts) |
+|  Terraform IaC        | Provision AWS EC2 + Security Group          | [`Terraform/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/Terraform) |
+|  GitHub Actions CI/CD | Auto-merge, build, Docker deploy           | [`.github/workflows/`](https://github.com/P3dmund/DevOps-Challenge/tree/main/.github/workflows) |
 
 ---
 
