@@ -15,8 +15,8 @@ jobs:
 		timeout-minutes: 30 # Set a time limit for the job
 		
         steps:
-            - name: Run jira Integration
-              uses: port-labs/ocean-sail@v1
+            - name: port-github-action
+              uses: port-labs/port-github-action@v1.7.5
               with:
                 type: jira
                 port_client_id: ${{ secrets.PORT_CLIENT_ID }}
