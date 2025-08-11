@@ -2,7 +2,7 @@
 
 This repository contains three DevOps challenges:
 
--  Shell scripting  
+-  Shell scripting understanding  
 -  Infrastructure as Code (IaC) using Terraform  
 -  CI/CD workflows with GitHub Actions  
 
