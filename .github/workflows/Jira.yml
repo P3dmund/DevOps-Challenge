@@ -1,0 +1,27 @@
+name: Jira Exporter Workflow
+
+# This workflow is responsible for running Jira exporter.
+# It fetches data from Jira using API tokens.
+
+on:
+    workflow_dispatch:  # Allow manual triggering
+    schedule:
+        - cron: '0 */1 * * *'  # Run every hour
+
+jobs:
+    run-integration:
+        runs-on: ubuntu-latest
+        timeout-minutes: 30  # Set a time limit for the job
+        
+        steps:
+            - name: Run Jira Integration
+              uses: port-labs/ocean-sail@v1
+              with:
+                type: jira
+                port_client_id: ${{ secrets.PORT_CLIENT_ID }}
+                port_client_secret: ${{ secrets.PORT_CLIENT_SECRET }}
+                port_base_url: "https://api.port.io"
+                config: |
+                    jira_host: "https://preciousedmund23.atlassian.net/"
+                    atlassian_user_email: ${{ secrets.ATLASSIANUSEREMAIL }}
+                    atlassian_user_token: ${{ secrets.ATLASSIANUSERTOKEN }}
